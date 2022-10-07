@@ -74,3 +74,30 @@ nav {
 .instaLogo {
   padding: 3px 5px 5px 5px;
 }
+
+.cats_container p{
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.contactBoxes {
+  padding-top: 80px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.fcf-label {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutPage {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  line-height: 3vh;
+}

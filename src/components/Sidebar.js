@@ -19,7 +19,7 @@ justify-content: space-between;
 max-height: 100%;
 width: 256px;
 margin-right: 0;
-background-color: ${({show}) => show ? "tan" : "white"};
+background-color: ${({show}) => show ? "#515050" : "white"};
 transition: all 0.5s;
 transform: ${({show}) => show ? "translateX(0)" : "translateX(-500px)"}
 `
@@ -27,6 +27,7 @@ transform: ${({show}) => show ? "translateX(0)" : "translateX(-500px)"}
 const Sideheader = styled.p`
 height: 50px;
 font-size: 35px;
+font-weight: bold;
 width: 100%;
 display: flex;
 align-items: center;
@@ -34,7 +35,8 @@ justify-content: center;
 padding-bottom: 5px;
 margin: 0;
 cursor: default;
-border-bottom: 3px solid black;
+border-bottom: 4px solid black;
+color: #deb887;
 `
 const Sidecontent = styled.div`
 position: absolute;
@@ -42,7 +44,8 @@ width: 100%;
 top: 60px;
 bottom: 60px;
 left: 5px;
-overflow-y:auto;`
+overflow-y:auto;
+color: #deb887;`
 
 const Sidefooter = styled.div`
 height: 50px;
@@ -55,4 +58,6 @@ paddint-top: 5px;
 margin: 0;
 cursor: pointer;
 border: 1px solid black;
-background-color: yellow;`
+background-color: black;
+color: #deb887;
+font-weight: bold;`
