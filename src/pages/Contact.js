@@ -1,7 +1,30 @@
 const Contact = () => {
     return (
-        <div>
-            <h1>Contact page</h1>
+        <div className="contactBoxes">
+            <h1>Contact Us</h1>
+            <p>If you would like to contact the team, you can get started below.<br></br></p>
+
+            <h1>Contact us</h1>
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php" />
+            <label for="Name" className="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required />
+            </div>
+            <div class="fcf-form-group">
+            <label for="Email" className="fcf-label">Your email address</label>
+            </div>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required />
+            </div>
+            <div class="fcf-form-group">
+            <label for="Message" className="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+            </div>
+            <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+            </div>
         </div>
     )
 }
