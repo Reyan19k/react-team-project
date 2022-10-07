@@ -34,7 +34,7 @@ nav {
 }
 
 .pageFooter {
-  background-color: gray;
+  background-color: rgb(81, 80, 80);
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -73,11 +73,6 @@ nav {
 
 .instaLogo {
   padding: 3px 5px 5px 5px;
-}
-
-.cats_container p{
-  border: 1px solid black;
-  padding: 20px;
 }
 
 .contactBoxes {

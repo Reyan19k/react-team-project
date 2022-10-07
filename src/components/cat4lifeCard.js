@@ -25,9 +25,7 @@ const CatsForLifeCard = () => {
                 <div className="cats_idividual">
                     <p>{cats[0].id}</p>
                     <img src={cats[0].url} />
-                    <div>
-                        {cats[0].name}
-                    </div>
+                    {cats[0].name}
                 </div>
                 <div className="cats_idividual">
                     <p>{cats[1].id}</p>
