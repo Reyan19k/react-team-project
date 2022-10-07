@@ -17,7 +17,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 max-height: 100%;
-width: 255px;
+width: 256px;
 margin-right: 0;
 background-color: ${({show}) => show ? "tan" : "white"};
 transition: all 0.5s;
