@@ -16,7 +16,6 @@ function App() {
     getCats()
   },[])
 
-
   return (
     <div>
       <div>
