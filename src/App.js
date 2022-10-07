@@ -1,4 +1,5 @@
-mport CatsForLife from './components/cats4life';
+import CatsForLife from './components/cats4life';
+import CatsFooter from './components/footer';
 import NavBar from './components/navbar';
 import './App.css';
 
@@ -9,6 +10,7 @@ function App() {
         <NavBar />
       </div>
       <div>
+        <CatsFooter/>
       </div>
     </div>
   );
