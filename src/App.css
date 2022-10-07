@@ -22,8 +22,16 @@ nav {
   display: flex;
   justify-content: space-evenly;
   border: 1px solid black;
+  padding: 20px;
 }
-
+.cats_idividual{
+  border: 1px solid black;
+  padding: 20px;
+}
+.cats_idividual img{
+  height: 90px;
+  width: auto;
+}
 
 .pageFooter {
   background-color: gray;
