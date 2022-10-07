@@ -1,13 +1,13 @@
 import styled from "styled-components"
 
 const Sidebar = ({show}) => {
-    return (
-    <BarContainer show={show}>
-        <Sideheader>Your Cart</Sideheader>
-        <Sidecontent></Sidecontent>
-        <Sidefooter>Purchase Cart?</Sidefooter>
-    </BarContainer>
-    )
+return (
+<BarContainer show={show}>
+    <Sideheader>Your Cart</Sideheader>
+    <Sidecontent></Sidecontent>
+    <Sidefooter>Purchase Cart?</Sidefooter>
+</BarContainer>
+)
 }
 
 export default Sidebar
