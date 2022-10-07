@@ -1,13 +1,16 @@
+import {Link, Route, Routes, useNavigate } from "react-router-dom";
 import CatsForLifeCard from "./cat4lifeCard";
 
 const CatsForLife = () => {
     return (
-        <div>
+        <div className='container_cats4life'>
             <div>
-                <CatsForLifeCard
-                />
+                <p>Cats for Life</p>
             </div>
-            <p>Cats for Life</p>
+            <div>
+                <CatsForLifeCard />
+            </div>
+            
         </div>
     )
 }
