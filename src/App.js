@@ -11,6 +11,7 @@ function App() {
       const res = await fetch("https://api.thecatapi.com/v1/breeds?limit=10")
       const data = await res.json()
       console.log(data)
+      setCats([...data])
     }
     getCats()
   },[])
