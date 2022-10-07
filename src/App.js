@@ -1,4 +1,4 @@
-import CatsForLife from './components/cats4life';
+mport CatsForLife from './components/cats4life';
 import NavBar from './components/navbar';
 import './App.css';
 
