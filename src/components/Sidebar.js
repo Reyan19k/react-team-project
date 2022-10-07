@@ -17,7 +17,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 max-height: 100%;
-width: 250px;
+width: 255px;
 margin-right: 0;
 background-color: ${({show}) => show ? "tan" : "white"};
 transition: all 0.5s;
@@ -46,11 +46,11 @@ border-bottom: 3px solid black;
 `
 const Sidefooter = styled.div`
 height: 50px;
-font-size: 35px;
+font-size: 25px;
 width: 100%;
 display: flex;
 justify-content: center;
-align-items: flex-end;
+align-items: center;
 paddint-top: 5px;
 margin: 0;
 cursor: pointer;
