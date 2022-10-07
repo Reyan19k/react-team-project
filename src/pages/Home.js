@@ -1,7 +1,18 @@
+import CatsForLife from '../components/cats4life';
+
 const Home = () => {
     return (
         <div>
-            <h1>Home page</h1>
+            <div>
+                <h1>Home page</h1>
+            </div>
+            <div>
+                <CatsForLife />
+            </div>
+            <br></br>
+            <div>
+                <CatsForLife/>
+            </div>
         </div>
     )
 }
