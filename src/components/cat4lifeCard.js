@@ -1,6 +1,7 @@
 import Breed1 from "./Breed.js"
 import { useEffect, useState } from "react"
 
+
 const CatsForLifeCard = () => {
     const [cats, setCats] = useState()
 
@@ -23,19 +24,19 @@ const CatsForLifeCard = () => {
             </div>
             <div className="cats_container">
                 <div className="cats_idividual">
-                    <p>{cats[0].id}</p>
+                    {/* <p>{cats[0].id}</p>
                     <img src={cats[0].url} />
-                    {cats[0].name}
+                    {cats[0].name} */}
                 </div>
                 <div className="cats_idividual">
-                    <p>{cats[1].id}</p>
+                    {/* <p>{cats[1].id}</p>
                     <img src={cats[1].url} />
-                    <p>Cat 2</p>
+                    <p>Cat 2</p> */}
                 </div>
                 <div className="cats_idividual">
-                    <p>{cats[2].id}</p>
+                    {/* <p>{cats[2].id}</p>
                     <img src={cats[2].url} />
-                    <p>cat 3</p>
+                    <p>cat 3</p> */}
                 </div>
             </div>
         </div>
